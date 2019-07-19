@@ -38,3 +38,24 @@ let idade = Number (prompt("Digite sua idade"));
         }else{
         console.log("Idade nao permitida para emprestimo")
     }
+
+
+    let number= Number(prompt("Digite um numero de 1 a 7 e descubra o dia semanal"));
+    if(numero ==1){
+        console.log("O dia da semana e Domingo")
+    }else if (numero ==2){
+        console.log("O dia e Segunda-feira")
+    }else if (numero ==3){
+        console.log("O dia da semana e Terça-feira")
+    }else if (numero ==4){
+        console.log("O dia da semana é Quarta-feira")
+    }else if (numero ==5){
+        console.log("O dia da semana é Quinta-feira")
+    }else if (numero ==6){
+        console.log("O dia da semana é Sexta-feira")
+    }else if (numero ==7){
+        console.log("O dia da semana é Sabádo")
+    }
+    else{
+        console.log("O número que digitou é inválido")
+    }
